@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Robotot", sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 1rem 5rem;
+}
+
+.slick-prev {
+  left: 3% !important;
+  color: rgba(13, 73, 142, 0.462) !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 6% !important;
+  color: rgba(13, 73, 142, 0.462) !important;
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: initial !important;
+  color: rgba(255, 255, 255, 0.462) !important;
+  font-size: 2rem !important;
+  background-color: black !important;
+  border-radius: 50% !important;
+  padding: 0.6rem !important;
+}
+
+/* .slick-next {
+  right: 10px;
+  background: rgb(243, 243, 243) !important;
+  border-radius: 7px;
+}
+
+.slick-prev {
+  left: 10px;
+  z-index: 2;
+  background: rgb(243, 243, 243) !important;
+  border-radius: 7px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(0, 0, 0);
+} */
